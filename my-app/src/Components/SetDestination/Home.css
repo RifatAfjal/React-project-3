@@ -1,0 +1,15 @@
+.homeContainer {
+    height: 100vh;
+    min-height: 100%;
+    width: 100vw;
+    background:linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
+               url(../../Image/Rectangle\ 1.png) no-repeat center center fixed;
+    background-size: 100% 100%;
+}
+.homeInfo {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

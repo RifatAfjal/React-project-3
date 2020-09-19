@@ -1,0 +1,48 @@
+ .banner {
+    height: 100vh;
+    min-height: 100%;
+    width: 100vw;
+    background:linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
+               url(../../Image/Rectangle\ 1.png) no-repeat center center fixed;
+    background-size: 100% 100%;
+}
+.suck {
+    width: 100%;
+    height: 100%;
+}
+.nuck {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardImage {
+    position: relative;
+    width: 200px;
+    height: 300px;
+    border-radius: 40px;
+    margin: 0 auto;
+    border: 3px solid goldenrod;
+    user-select: none;
+}
+.cardImage img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+}
+ .cardImage h1 {
+    position: absolute;
+    top: 82%;
+    left: 5%;
+    color: white;
+    font-size: 25px;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 40px;
+    background: linear-gradient(to top,black, transparent,transparent)
+}

@@ -1,0 +1,36 @@
+.suck {
+    display: flex;
+    justify-content: center;
+}
+.loginForm {
+    width: 500px;
+    border: 1px solid lightgray;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+.otherAuth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.line{
+    width: 100px;
+    height: 1px;
+    background-color: black;
+}
+.line:nth-child(1), .otherAuth span{
+    margin-right: 10px;
+}
+.extraContainer {
+    width: 300px;
+    display: flex;
+    justify-content:center;
+    align-items: center
+}
+
+.button {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
